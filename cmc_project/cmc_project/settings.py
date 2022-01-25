@@ -88,7 +88,7 @@ CHANNEL_LAYERS = {
 # Celery
 
 CELERY_BROKER_URL = 'redis://localhost:6379'
-CELERY_RESULT_BACKEND = 'redis://localhost:6379/1'
+# CELERY_RESULT_BACKEND = 'redis://localhost:6379/1'
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases

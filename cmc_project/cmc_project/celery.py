@@ -30,6 +30,8 @@ app.autodiscover_tasks()
 # celery -A cmc_project beat -l INFO
 
 # launch the broker:
+# linux:
+# celery -A cmc_project worker -l INFO
 # WINDOWS might not work. Possible workarounds:
 # settings.py:
 # CELERY_RESULT_BACKEND = 'redis://localhost:6379/1'
